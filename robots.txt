@@ -1,0 +1,114 @@
+# ==============================================================================
+# robots.txt - Magang Digital Indonesia (https://magangdigital.web.id)
+# Mengizinkan semua Search Engine & Model AI (Google AI Overview, ChatGPT, dll.)
+# ==============================================================================
+
+# Aturan Default untuk Semua Crawler & Mesin Pencari
+User-agent: *
+Allow: /
+Disallow: /assets/vendor/
+Disallow: /forms/
+
+# ------------------------------------------------------------------------------
+# Google & Google AI Overview / Gemini
+# ------------------------------------------------------------------------------
+# Googlebot adalah crawler utama yang memberi daya pada Google Search & AI Overviews
+User-agent: Googlebot
+Allow: /
+
+# Google-Extended digunakan untuk produk AI Google (Gemini, Vertex AI, Bard)
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# ------------------------------------------------------------------------------
+# OpenAI (ChatGPT & SearchGPT)
+# ------------------------------------------------------------------------------
+# GPTBot untuk indexing & pelatihan model AI OpenAI
+User-agent: GPTBot
+Allow: /
+
+# ChatGPT-User untuk penelusuran web real-time pengguna ChatGPT
+User-agent: ChatGPT-User
+Allow: /
+
+# OAI-SearchBot untuk mesin pencari SearchGPT
+User-agent: OAI-SearchBot
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Anthropic (Claude AI)
+# ------------------------------------------------------------------------------
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Perplexity AI
+# ------------------------------------------------------------------------------
+User-agent: PerplexityBot
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Microsoft Bing & Copilot
+# ------------------------------------------------------------------------------
+User-agent: Bingbot
+Allow: /
+
+User-agent: Copilot
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Apple (Apple Intelligence & Siri)
+# ------------------------------------------------------------------------------
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Meta AI (Llama, Meta AI Search)
+# ------------------------------------------------------------------------------
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# ------------------------------------------------------------------------------
+# AI & Data Crawlers Lainnya
+# ------------------------------------------------------------------------------
+# Amazon Titan & Alexa AI
+User-agent: Amazonbot
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# ByteDance / Doubao AI
+User-agent: Bytespider
+Allow: /
+
+# Common Crawl (Digunakan oleh banyak riset AI terbuka)
+User-agent: CCBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Peta Situs XML (Sitemap)
+# ------------------------------------------------------------------------------
+Sitemap: https://magangdigital.web.id/sitemap.xml
